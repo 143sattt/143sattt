@@ -1,10 +1,169 @@
-- 👋 Hi, I’m @143sattt
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="weather.css1.css">
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER forecasting</h1>
+        <div>
+            <input type="text" name="" id="input" placeholder="Enter city name">
+            <button id="search" onclick="searchByCity()">Search</button></input>
+        </div>
+    </div>
 
-<!---
-143sattt/143sattt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    <main>        
+        <div class="weather">
+            <h2 id="city">Delhi</h2>
+            <div class="temp-box">
+                <img src="weathericon.png" alt="" id="img">
+                <p id="temperature">45 °C</p>
+            </div>
+            <span id="clouds">Mostly sun</span>
+        </div>
+        <div class="divider1"></div>
+
+        <div class="forecstH">
+            <p class="cast-header">Upcoming forecast</p>
+            <div class="templist">
+
+                <div class="next">
+                    <div>
+                        <p class="time">2:00 PM</p>
+                        <p>45° C / 45°C</p>
+                    </div>
+                    <p class="desc">Sun</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">4:00 PM</p>
+                        <p>40 °C / 40 °C</p>
+                    </div>
+                    <p class="desc">Sun</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">6:00 PM</p>
+                        <p>38 °C / 38 °C</p>
+                    </div>
+                    <p class="desc">partly clouds</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:00 PM</p>
+                        <p>37 °C / 37 °C</p>
+                    </div>
+                    <p class="desc">partly clouds</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">10:00 PM</p>
+                        <p>36 °C / 36 °C</p>
+                    </div>
+                    <p class="desc">partly clouds</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">12:00 PM</p>
+                        <p>34 °C / 34 °C</p>
+                    </div>
+                    <p class="desc">partly clouds</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">2:00 AM</p>
+                        <p>33 °C / 33 °C</p>
+                    </div>
+                    <p class="desc">partly clouds</p>
+                </div>
+
+            </div>
+        </div>
+    </main> </br></br>
+       
+    <div class="forecstK">
+        <div class="divider2"></div>
+        <p class="cast-header"> weather details</p>
+        <div class="details">
+
+            <div class="details">
+                <p class="humidity">Humidity</p><p></p>
+                <p class="desc">30%</p>
+            </div>
+             
+            <div class="details">
+                <p class="Wind">Wind</p><p></p>
+                <p class="desc">13 km/h</p>
+            </div>
+
+            <div class="details">
+                <p class="UV">UV</p><p></p>
+                <p class="desc">Weak</p>
+            </div>
+
+            <div class="details">
+                <p class="Visibility">Visibility</p><p></p>
+                <p class="desc">11 km</p>
+            </div>
+
+            <div class="details">
+                <p class="Air pressure">Air pressure</p><p></p>
+                <p class="desc">1000 hPa</p>
+            </div>
+        </div>
+
+    <div class="forecstD" >
+        <div class="divider2"></div>
+        <p class="cast-header"> Next 7 days forecast</p>
+        <div class="weekF">
+
+            <div class="dayF">
+                <p class="date">sat may 27 2023</p>
+                <p>46 °C / 46 °C</p>
+                <p class="desc">Mostly sun</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun may 28 2023</p>
+                <p>46 °C / 46 °C</p>
+                <p class="desc">Mostly sun</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Mon may 29 2023</p>
+                <p>41 °C / 41 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Tue may 30 2023</p>
+                <p>42 °C / 42 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Wed may 31 2023</p>
+                <p>47 °C / 47 °C</p>
+                <p class="desc">Mostly sun</p>
+            </div>
+            
+            <div class="dayF">
+                <p class="date">Thu Jun 01 2023</p>
+                <p>46 °C / 46 °C</p>
+                <p class="desc">mostly sun</p>
+            </div>
+        </div>
+    </div>
+    <script src="/weather.js2.js"></script>
+</body>
+</html>
